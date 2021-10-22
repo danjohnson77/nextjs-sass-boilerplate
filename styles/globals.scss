@@ -1,0 +1,19 @@
+@import "./variables.scss", "./fonts.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $background-color;
+  font-family: $header-font;
+  color: $text-color;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
